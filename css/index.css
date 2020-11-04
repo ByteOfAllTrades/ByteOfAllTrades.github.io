@@ -1,0 +1,12 @@
+/*Light Theme*/
+.theme-light
+{
+ background-color: #fbfbfe;
+ color: #000000;
+}
+/*Dark Theme*/
+.theme-dark
+{
+ background-color: #243133;
+ color: #FFFFFF;
+}
