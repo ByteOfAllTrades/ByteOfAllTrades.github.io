@@ -10,6 +10,7 @@ body a {
 
 body button {
   border-radius: 40px;
+  border-bottom: 2px solid #5a5a5a;
   margin: auto;
   text-align: center;
   background-color: #624976;
@@ -21,6 +22,18 @@ body button:focus {
   outline: none;
 }
 
+body button:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  border-bottom: 5px solid #E1332D;
+}
+
+body button:active {
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  border-bottom: 0px solid #E1332D;
+}
+
 .trueCenter {
   margin: auto;
   width: 50%;
@@ -28,8 +41,61 @@ body button:focus {
   text-align: center;
 }
 
-.overlay {
-  position: fixed;
+.socialOverlay {
+  padding-top: 10%;
+  padding-right: 1%;
+  position: relative;
+  float: right;
+}
+
+.socialOverlay div {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.socialOverlay div img {
+  height: 64px;
+  width: 64px;
+  display: inline-block;
+  text-align: left;
+}
+
+.socialOverlay div.github {
+  background-color: #6f42c1;
+  border-left: 5px solid #5a5a5a;
+}
+
+.socialOverlay div.replit {
+  background-color: #C2F1DB;
+  border-left: 5px solid #5a5a5a;
+}
+
+.socialOverlay div.linkedin {
+  background-color: #2867B2;
+  border-left: 5px solid #5a5a5a;
+}
+
+.socialOverlay div.codepen {
+  background-color: #C2F1DB;
+  border-left: 5px solid #5a5a5a;
+}
+
+.socialOverlay div:hover {
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  border-left: 10px solid #E1332D;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.socialOverlay div:active {
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  border-left: 5px solid #5a5a5a;
+  border-bottom: 0px;
+}
+
+.activePage {
+  color: #E1332D;
 }
 
 .menuToggle {
