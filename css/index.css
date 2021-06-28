@@ -25,8 +25,38 @@ body button:focus {
 .trueCenter {
   margin: auto;
   width: 50%;
-  padding-top: 10%;
+  padding-top: 5%;
   text-align: center;
+}
+
+.profile {
+  width: 25%;
+  height: 25%;
+  -webkit-box-shadow: 10px 10px #3a3a3a;
+          box-shadow: 10px 10px #3a3a3a;
+  margin-bottom: 3%;
+}
+
+.portfolio-header {
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.portfolio-header h1 {
+  text-decoration: underline;
+}
+
+.portfolio-body {
+  margin-left: 2%;
+}
+
+.portfolio-body img {
+  height: 30%;
+  width: 30%;
+}
+
+.portfolio-body li {
+  font-size: 100%;
 }
 
 .socialOverlay {
@@ -97,8 +127,8 @@ body button:focus {
 }
 
 .portfolio img:active {
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
   -webkit-transform: rotateY(360deg);
           transform: rotateY(360deg);
 }
@@ -109,8 +139,8 @@ body button:focus {
 }
 
 .portfolio a:hover {
-  -webkit-transition-duration: 3s;
-          transition-duration: 3s;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
   color: #E1332D;
 }
 

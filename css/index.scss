@@ -47,8 +47,34 @@ body {
 .trueCenter {
     margin: auto;
     width: 50%;
-    padding-top: 10%;
+    padding-top: 5%;
     text-align: center;
+}
+
+.profile {
+    width: 25%;
+    height: 25%;
+    box-shadow:10px 10px #3a3a3a;
+    margin-bottom: 3%;
+}
+
+.portfolio-header {
+    margin-top: 5%;
+    margin-left: 2%;
+    h1 {
+        text-decoration: underline;
+    }
+}
+
+.portfolio-body {
+    margin-left: 2%;
+    img {
+        height: 30%;
+        width: 30%;
+    }
+    li {
+        font-size: 100%;
+    }
 }
 
 .socialOverlay {
@@ -111,7 +137,7 @@ body {
         height: 100px;
         width: 100px;
         &:active {
-            transition-duration: 0.5s;
+            transition-duration: 0.2s;
             transform: rotateY(360deg);
         }
     }
@@ -119,7 +145,7 @@ body {
         display: inline-block;
         padding: 0px 40px 0px 40px;
         &:hover {
-            transition-duration: 3s;
+            transition-duration: 1s;
             color: $accent2;
         }
         
